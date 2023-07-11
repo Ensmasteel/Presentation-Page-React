@@ -51,12 +51,16 @@
   align-self: center;
   margin-top: var(--dl-space-space-doubleunit);
   text-align: center;
+  transition: 0.3s;
   padding-top: var(--dl-space-space-doubleunit);
   border-width: 0px;
   border-radius: 34px;
   padding-bottom: var(--dl-space-space-doubleunit);
   text-decoration: none;
   background-color: var(--dl-color-primary-100);
+}
+.participations-cdr1-navlink:hover {
+  cursor: pointer;
 }
 .participations-cdr1-service-card1 {
   width: 49%;
@@ -82,19 +86,23 @@
   height: 271px;
   object-fit: cover;
 }
-.participations-cdr1-navlink1 {
+.participations-cdr1-button {
   color: var(--dl-color-gray-white);
   width: 147px;
   height: 67px;
   align-self: center;
   margin-top: var(--dl-space-space-doubleunit);
   text-align: center;
+  transition: 0.3s;
   padding-top: var(--dl-space-space-doubleunit);
   border-width: 0px;
   border-radius: 34px;
   padding-bottom: var(--dl-space-space-doubleunit);
   text-decoration: none;
   background-color: var(--dl-color-primary-100);
+}
+.participations-cdr1-button:hover {
+  cursor: pointer;
 }
 
 @media(max-width: 767px) {
@@ -107,7 +115,7 @@
   .participations-cdr1-card-content1 {
     margin: 0px;
   }
-  .participations-cdr1-navlink1 {
+  .participations-cdr1-button {
     width: 150px;
   }
   .participations-cdr1-text6 {
