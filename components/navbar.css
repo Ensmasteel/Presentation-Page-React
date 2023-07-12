@@ -3,7 +3,6 @@
   display: flex;
   position: relative;
   max-width: var(--dl-size-size-maxcontent);
-  box-shadow: 5px 5px 10px 0px #d4d4d4;
   align-items: center;
   padding-top: var(--dl-space-space-doubleunit);
   padding-left: var(--dl-space-space-tripleunit);
@@ -164,6 +163,11 @@
   height: 24px;
 }
 
+@media(max-width: 991px) {
+  .navbar-mobile-menu {
+    display: none;
+  }
+}
 @media(max-width: 767px) {
   .navbar-links-container {
     display: none;
@@ -177,10 +181,16 @@
   .navbar-icon {
     fill: var(--dl-color-gray-white);
   }
+  .navbar-mobile-menu {
+    display: none;
+  }
 }
 @media(max-width: 479px) {
   .navbar-burger-menu {
     margin-left: var(--dl-space-space-doubleunit);
+  }
+  .navbar-mobile-menu {
+    display: none;
   }
   .navbar-cta-btn {
     font-size: 16px;
