@@ -324,6 +324,24 @@
 .contact-accueil-icon08 {
   width: 24px;
   height: 24px;
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.contact-accueil-link3 {
+  display: contents;
+}
+.contact-accueil-icon10 {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.contact-accueil-link4 {
+  display: contents;
+}
+.contact-accueil-icon12 {
+  width: 24px;
+  height: 24px;
   text-decoration: none;
 }
 .contact-accueil-container1 {

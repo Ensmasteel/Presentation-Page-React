@@ -262,7 +262,7 @@
 .contact-autres-link {
   display: contents;
 }
-.contact-autres-icon2 {
+.contact-autres-icon02 {
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-doubleunit);
@@ -271,7 +271,7 @@
 .contact-autres-link1 {
   display: contents;
 }
-.contact-autres-icon4 {
+.contact-autres-icon04 {
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-doubleunit);
@@ -280,7 +280,16 @@
 .contact-autres-link2 {
   display: contents;
 }
-.contact-autres-icon6 {
+.contact-autres-icon06 {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.contact-autres-link3 {
+  display: contents;
+}
+.contact-autres-icon08 {
   width: 24px;
   height: 24px;
   text-decoration: none;
