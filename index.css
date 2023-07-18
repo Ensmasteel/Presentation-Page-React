@@ -601,7 +601,8 @@
   margin-bottom: var(--dl-space-space-tripleunit);
 }
 .home-image1 {
-  width: 50%;
+  width: 643px;
+  height: 415px;
   object-fit: contain;
 }
 .home-section-separator {
